@@ -9,7 +9,7 @@ import sys
 base = 'Win32GUI' if sys.platform=='win32' else None
 
 executables = [
-    Executable('Viona.py', base=base, target_name = 'App')
+    Executable('Viona.py', base=base, icon='logo.ico', target_name = 'App')
 ]
 
 setup(name='Viona App',
