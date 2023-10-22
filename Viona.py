@@ -289,6 +289,7 @@ class MyApp(ctk.CTk):
             self.resizable(width=False, height=False)
             self.title("Viona")
             self.configure(fg_color=BackgroundColor)
+            self.iconbitmap("logo.ico")
 
 
             # --- Add infos ---
